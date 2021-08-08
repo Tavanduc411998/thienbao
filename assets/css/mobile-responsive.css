@@ -1,0 +1,81 @@
+@media (max-width: 740px) {
+  /* Header */
+  .navigation,
+  .search-btn {
+    display: none;
+  }
+
+  header .mobile-menu-btn {
+    display: block;
+    padding: 16px;
+  }
+
+  .mobile-menu-btn:hover {
+    color: #fff;
+    cursor: pointer;
+  }
+
+  /* Slider */
+  #slider {
+    height: auto;
+  }
+  /* About Section */
+  .about-flex {
+    padding: 0 5%;
+    display: block;
+  }
+  .about-content,
+  .about-image {
+    width: 90%;
+  }
+  .about-content ul {
+    padding-right: 0;
+    margin-bottom: 20px;
+  }
+
+  /* Services Section */
+  .services-flex {
+    padding: 0 5%;
+  }
+
+  .services-content {
+    width: 45%;
+  }
+
+  /* News Section */
+  .news-flex {
+    display: block;
+    padding: 0 5%;
+  }
+
+  .news-content {
+    width: 100%;
+  }
+
+  /* Help Section */
+  .help-content {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  .help-form .name-and-phone,
+  .help-form .email-and-service,
+  .help-form .date-and-time {
+    display: block;
+  }
+
+  .help-form .name-and-phone div,
+  .help-form .email-and-service div,
+  .help-form .date-and-time div {
+    width: 100%;
+  }
+
+  /* Footer */
+  .footer-content {
+    display: block;
+  }
+
+  .footer-content .footer-content-left {
+      margin-bottom: 20px;
+  }
+}
